@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sand2 1
+  m_Shader: {fileID: 4800000, guid: 1607af02c7488974b96d6c267365ae6c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlitterTex:
+        m_Texture: {fileID: 2800000, guid: 972c38afafdd4e149bc0c8c737674776, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrainTex:
+        m_Texture: {fileID: 2800000, guid: 0e907f94a6b94944596b4afd241f0d71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SandInteractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AnisoEnd: 2.77
+    - _AnisoStart: 12.4
+    - _DiffuseContrast: 4
+    - _DiffuseYScale: 0.3
+    - _FootprintDarkness: 0.18
+    - _FootprintDepth: 0.3
+    - _FootprintEdgeStrength: 7
+    - _FootprintNormalStrength: 0.8
+    - _GlitterStrength: 2.9
+    - _GlitterThreshold: 0.999
+    - _GlitterTiling: 10
+    - _InteractionWorldSize: 100
+    - _MipBias: 1
+    - _NoiseTiling: 10
+    - _OceanPower: 28
+    - _OceanStrength: 0.1
+    - _RimPower: 5
+    - _RimStrength: 0.5
+    - _RippleFrequency: 7
+    - _RippleNoiseScale: 1.8
+    - _RippleNoiseStrength: 0.35
+    - _RippleSpeed: 0.08
+    - _RippleStrength: 0.12
+    - _RippleTiling: 0.08
+    - _SandDarkness: 0.18
+    - _SandNormalStrength: 0.04
+    - _SandVariation: 0.08
+    m_Colors:
+    - _FootprintEdgeColor: {r: 1, g: 0.5, b: 0.17999998, a: 1}
+    - _GlitterColor: {r: 1, g: 0.9, b: 0.7, a: 1}
+    - _InteractionCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _OceanColor: {r: 1, g: 0.34999996, b: 0.079999976, a: 1}
+    - _RimColor: {r: 1, g: 0.31999996, b: 0.079999976, a: 1}
+    - _SandColor: {r: 0.72, g: 0.31999996, b: 0.11999995, a: 1}
+    - _WindDirection: {r: 1, g: 0.25, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
